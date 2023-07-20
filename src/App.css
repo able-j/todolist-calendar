@@ -1,0 +1,35 @@
+.app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.task-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-input input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.task-list {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.task-item button {
+  color: red;
+  cursor: pointer;
+}
